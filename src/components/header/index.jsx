@@ -16,7 +16,9 @@ const Header = () => {
 
   return (
     <StyledHeader>
-      <LogoContainer></LogoContainer>
+      <LogoContainer>
+        <img src="resources/images/logos/deadCellsLogo.svg" alt="Dead Cells" />
+      </LogoContainer>
       <Nav>
         <StyledList>
           <StyledListItem>Trailer</StyledListItem>
