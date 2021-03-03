@@ -14,13 +14,21 @@ export const StyledHeader = styled.header`
   position: fixed;
   z-index: 10;
 `;
-export const LogoContainer = styled.div``;
+export const LogoContainer = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  img {
+    height: 80%;
+    margin-left: 0.5rem;
+  }
+`;
 
 export const StyledButton = styled(IconButton)`
   width: 100%;
   height: 100%;
   svg {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--white);
   }
 `;
@@ -71,8 +79,9 @@ export const StyledListItem = styled(ListItem)`
 
   margin: 0;
   padding: 2rem !important;
+
   &:hover {
-    background-color: rgb(10, 15, 45, 0.75);
+    background-color: rgb(10, 7, 38, 0.75);
   }
 
   @media (min-width: 768px) {
