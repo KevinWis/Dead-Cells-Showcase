@@ -1,7 +1,8 @@
 import "./global.css";
+import Home from "./pages/home";
 
 function App() {
-  return <div></div>;
+  return <Home></Home>;
 }
 
 export default App;
