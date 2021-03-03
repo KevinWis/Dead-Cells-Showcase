@@ -7,9 +7,12 @@ export const StyledHeader = styled.header`
   justify-content: space-between;
 
   width: 100%;
-  height: 5rem;
+  height: 4rem;
 
   background-color: rgb(0, 1, 31, 0.75);
+
+  position: fixed;
+  z-index: 10;
 `;
 export const LogoContainer = styled.div``;
 
